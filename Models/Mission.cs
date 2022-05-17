@@ -14,7 +14,7 @@ namespace SpaceWebApplication.Models
         }
 
         public int MissionId { get; set; }
-        [Display(Name = "Гра")]
+      
         [Required(ErrorMessage = "Поле не повинно бути порожнім")]
         public string Name { get; set; }
         [Display(Name = "Дата випуску")]
