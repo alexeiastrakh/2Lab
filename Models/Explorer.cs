@@ -17,7 +17,7 @@ namespace SpaceWebApplication.Models
         [Display(Name = "Дослiдник")]
         [Required(ErrorMessage = "Поле не повинно бути порожнім")]
         public string Name { get; set; }
-        [Display(Name = "Інформація про розробника")]
+
         public string Info { get; set; }
 
         public int CountryId { get; set; }
