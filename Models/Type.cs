@@ -16,7 +16,7 @@ namespace SpaceWebApplication.Models
      
         [Required(ErrorMessage = "Поле не повинно бути порожнім")]
         public string Name { get; set; }
-        [Display(Name = "Інформація про жанр")]
+    
         public string Info { get; set; }
 
 
